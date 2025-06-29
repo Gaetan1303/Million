@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu Question pour un Champion</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Question pour un Champion</h1>
+
+        <div class="question-container">
+            <p class="question">Quelle est la capitale de la France ?</p>
+            <div class="answers">
+                <label>
+                    <input type="radio" name="answer" value="A">
+                    Paris
+                </label>
+                <label>
+                    <input type="radio" name="answer" value="B">
+                    Londres
+                </label>
+                <label>
+                    <input type="radio" name="answer" value="C">
+                    Madrid
+                </label>
+                <label>
+                    <input type="radio" name="answer" value="D">
+                    Rome
+                </label>
+            </div>
+            <button id="submit-button">Soumettre la réponse</button>
+        </div>
+
+        <div id="result" class="result">
+            <!-- Message de résultat -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
